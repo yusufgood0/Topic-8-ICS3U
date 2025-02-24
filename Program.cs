@@ -54,7 +54,7 @@ namespace Topic_8
                     Console.WriteLine("How many numbers do you need?");
                     while (Int32.TryParse(values.ToString(), out numberCount))
                         {
-                            values.Add (Console.ReadLine());
+                            values.Add(Console.ReadLine());
                         }
 
                     for (int i = 0; i < values.Count; i++)
